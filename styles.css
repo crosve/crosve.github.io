@@ -1,0 +1,134 @@
+body{
+    
+    background: rgb(123,123,134);
+    background: linear-gradient(90deg, rgba(123,123,134,1) 41%, rgba(131,127,127,0.9822522759103641) 77%);
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.navbar ul{
+    list-style-type: none; /*Removes Bullet Points*/
+    background-color: rgb(77, 77, 77);
+    padding: 0px;
+    margin: 0px;
+ 
+    overflow: hidden;
+
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    /* margin-left: 20px; */
+    text-shadow: 0cap;
+    opacity: 0.7;
+    transition: .5s;
+}
+
+.navbar a:hover{
+    background-color: rgb(200, 200, 200); /*When you hover over */
+    opacity: 1;
+
+}
+
+.navbar li{
+    float: left;
+
+}
+
+#name{
+    font-size: 50px;
+    
+}
+
+.aboutme{
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+.introduction{
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer{
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    
+    background-color: rgb(77, 77, 77);
+    color: whitesmoke;
+   
+
+}
+
+.footer ul{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.contact-items{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom-footer{
+    text-align: center;
+
+}
+
+.projects{
+    margin-top: 50px;
+    text-align: center;
+
+  
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+
+}
+
+
+@media (max-width: 700px) {
+    .footer ul{
+        flex-direction: column;
+    }
+    .footer ul li{
+        width: 100px;
+        text-align: center;
+        margin: 10px;
+
+
+    }
+    
+}
