@@ -1,0 +1,1 @@
+Helllo, this is my first online webpage I put together to add to my resume and showcase to potential employers some of the projects I have worked on. As I created more projects I'll continue to add on to my webpage. 
