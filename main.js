@@ -16,3 +16,25 @@ window.addEventListener('DOMContentLoaded', function() {
     }
     element.innerHTML = wrappedText;
   }
+
+
+  //Navbar scroll effect 
+
+  // const body = document.body; 
+  // let lastscroll = 0; 
+
+  // window.addEventListener('scroll', () => {
+  //   const currentScroll = window.pageYOffset;
+  //   if (currentScroll <= 0) {
+  //     body.children.remove("scroll-up");
+  //     return; 
+  //   }
+  //   if (currentScroll > lastscroll && !body.classList.contains("scroll-down")) {
+  //     body.children.remove("scroll-down");
+  //     body.children.add("scroll-down");
+  //   } else if (currentScroll < lastscroll && body.classList.contains("scroll-down")) {
+  //     body.children.remove("scroll-down");
+  //     body.children.add("scroll-up");
+  //   }
+  //   lastscroll = currentScroll;
+  // })

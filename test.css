@@ -1,0 +1,336 @@
+*{
+    margin: 0; 
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background: #cdcbd6; */
+
+}
+
+html{
+    scroll-behavior: smooth;
+    margin: 0px;
+    
+}
+
+body{
+    position: relative;
+    /* overflow: hidden; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+    background: #a9a9ac;
+    height: 10vh; 
+    z-index: 100;
+
+
+}
+
+nav .logo{
+    margin-left: 5%; 
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+nav .logo:hover{
+    color: #fff;
+    /* background: #000; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+nav .menu{
+    margin-right: 5%;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: #000; 
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+nav .menu a:hover{
+    color: #fff;
+    background: #000;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+main #Home{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(108, 103, 103, 0.7), rgba(125, 123, 123, 0.7)) , url(./background.png);
+    background-size: cover;
+
+}
+
+main #Home h1{
+    font-size:60px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+main #Home .side-footer{
+    position: absolute;
+    align-self: flex-start;
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+
+main #Home .side-footer .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+main #Home .side-footer .footer a{
+    text-decoration: none;
+    color: #000; 
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+main #Home .side-footer .footer a:hover{
+  
+    transform: translateY(-5px);
+
+}
+
+main .introduction{
+
+    /* adjust my text width*/
+     font-size: 20px; /* Adjust the font size as needed */
+     font-weight: 400;
+     margin: 10px 0; /* Adjust the top and bottom margins as needed */
+     text-align: center;
+     line-height: 1.2; /* Adjust the line-height as needed */
+     max-width: 600px; /* Adjust the max-width as needed */
+}
+
+main button{
+    margin-top: 25px;
+    padding: 10px 60px;
+    background: #4b4a4a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main button:hover{
+    transform: translateY(-5px);  
+    color: #000000;
+}
+
+
+/* this section will be the "about" section */
+main #About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+    height: 100vh;
+    /* background: #fff; */
+    padding: 0 20px;
+    background: #969594;
+}
+
+main #About h2{
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: #473c3c solid 2px;
+}
+
+main #About .two-section{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+main #About .two-section .left{
+    width: 100%;
+    max-width: 500px;
+    height: 50vh;
+    padding: 0 20px;
+    /* border-right: #000 solid 2px;
+    border-bottom: #000 solid 2px; */
+}
+
+main #About .two-section .left h3{
+    font-size: 25px;
+    font-weight: 500px;
+    margin-bottom: 25px;
+
+}
+
+main #About .two-section .left p{
+    font-size: 18px;
+    font-weight: 200px;
+    text-align: left;
+    line-height: 1.5; /* Adjust the line-height as needed */
+    max-width: 500px; /* Adjust the max-width as needed */
+
+}
+
+main #About .two-section .right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    padding: 0 20px;
+    /* align-items: center; */
+}
+
+main #About .two-section .right h3{
+    font-size: 25px;
+    font-weight: 500px;
+    margin-bottom: 25px;
+    /* text-align: center; */
+}
+
+main #About .two-section .right ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+   
+    /* justify-content: space-between; */
+   
+    /* text-align: left; */
+
+}
+
+main #About .two-section .right ul li{
+    font-size: 20px;
+    font-weight: 200px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: black;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    flex-basis: calc(25% - 10px);
+    /* background: #fff;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5px;
+    height: 10px;
+    padding: 10px; */
+    /* justify-content: space-evenly;
+    align-items: center; */
+}
+
+main #Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+    height: 100vh;
+    /* background: #fff; */
+    padding: 0 20px;
+    background: #848282;
+}
+
+main #Projects h2{
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: #473c3c solid 2px;
+}
+
+#Bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #cdcdd4;
+    /* bottom: 0; 
+    width: 100%;
+    height: 3.5rem;
+    
+    background-color: rgb(77, 77, 77);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    gap: 10px; */
+}
+
+#Bottom .footer{
+    display: flex;
+    gap: 20px;
+}
+
+#bottom .footer a{
+    text-decoration: none;
+    color: black;
+
+    /* color: #000; 
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 600; */
+}
+
+#bottom .footer a i{
+    color: black;
+}
+
+
+@media (max-width: 600px){
+    main #About .two-section .left p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px){
+    main #About .two-section .left p{
+        font-size: 8px;
+    }
+}

@@ -7,25 +7,21 @@ html{
 }
 body{
     position: relative;
-    background: rgb(123,123,134);
-    background: linear-gradient(90deg, rgba(123,123,134,1) 41%, rgba(131,127,127,0.9822522759103641) 77%);
+    /* background: rgb(123,123,134);
+    background: linear-gradient(90deg, rgba(123,123,134,1) 41%, rgba(131,127,127,0.9822522759103641) 77%); */
     padding: 0px;
     margin: 0px;
 
 }
 
-main{
-    padding-bottom: 2.5rem;
-    /* margin-bottom: 2.5rem; */
 
-}
 header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     /* padding: 20px 120px; */
-    background-color: rgb(77, 77, 77);
+    background-color: #cdcbd6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +30,7 @@ header{
 }
 
 nav a{
-    color: whitesmoke;
+    color: rgb(149, 139, 139);
     text-decoration: none;
     padding: 15px;
     display: inline-block;
@@ -47,7 +43,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(85, 83, 83);
     opacity: 1;
 }
 
@@ -150,6 +146,15 @@ footer a:hover{
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+
+}
+
+.scroll-down header{
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up header{
+    transform: translate3d(0, 0, 0);
 
 }
 
